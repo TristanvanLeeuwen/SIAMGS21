@@ -1,0 +1,38 @@
+  <h2>Site Error</h2>
+  <p>An error was encountered while publishing this resource.
+  </p>
+  <p><strong><class 'zExceptions.unauthorized.Unauthorized'></strong></p>
+
+  Sorry, a site error occurred.<p><p>Traceback (innermost last):</p>
+<ul>
+
+<li>  Module ZPublisher.Publish, line 249, in publish_module_standard</li>
+
+<li>  Module ZPublisher.Publish, line 177, in publish</li>
+
+<li>  Module ZPublisher.Publish, line 127, in publish</li>
+
+<li>  Module ZPublisher.BaseRequest, line 623, in traverse</li>
+
+<li>  Module ZPublisher.HTTPResponse, line 756, in unauthorized</li>
+
+</ul><p>Unauthorized: {"error_type": "Unauthorized"}
+</p></p>
+  <hr noshade="noshade"/>
+
+  <p>Troubleshooting Suggestions</p>
+
+  <ul>
+  <li>The URL may be incorrect.</li>
+  <li>The parameters passed to this resource may be incorrect.</li>
+  <li>A resource that this resource relies on may be
+      encountering an error.</li>
+  </ul>
+
+  <p>For more detailed information about the error, please
+  refer to the error log.
+  </p>
+
+  <p>If the error persists please contact the site maintainer.
+  Thank you for your patience.
+  </p>
